@@ -84,7 +84,7 @@ def ensure_models_downloaded():
         if not dest.exists():
             url = f"https://drive.google.com/uc?id={file_id}"
             print(f"Downloading {filename} ...")
-            gdown.download(url, str(dest), quiet=False, fuzzy=True)
+            gdown.download(url, str(dest), quiet=False)
 
 ensure_models_downloaded()
 
