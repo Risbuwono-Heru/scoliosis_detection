@@ -1,0 +1,7 @@
+Model/
+Output/
+temp/
+__pycache__/
+*.pyc
+*.pyo
+.env

@@ -1,0 +1,17 @@
+{
+    "project": "Spine X-Ray Classification",
+    "model_name": "DenseNet121",
+    "experiment": "E4",
+    "dataset_name": "classification_dataset",
+    "positive_class": "scoliosis",
+    "negative_class": "normal",
+    "output_activation": "sigmoid",
+    "decision_threshold": 0.5,
+    "training_preprocessing": "rescale_1_over_255",
+    "image_size": [224, 224],
+    "batch_size": 32,
+    "num_test_images": 0,
+    "num_correct": 0,
+    "num_wrong": 0,
+    "test_accuracy": 0.0
+}
