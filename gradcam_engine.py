@@ -94,8 +94,8 @@ ensure_models_downloaded()
 
 MODEL_FILES = sorted(MODEL_DIR.glob("*.keras"))
 
-SUMMARY_PATH    = METADATA_DIR / "evaluation_summary.json"
-PREDICTION_PATH = METADATA_DIR / "prediction_results.csv"
+SUMMARY_PATH    = PROJECT_DIR / "evaluation_summary.json"
+PREDICTION_PATH = PROJECT_DIR / "prediction_results.csv"
 
 with open(SUMMARY_PATH, "r") as f:
     EVALUATION_SUMMARY = json.load(f)
